@@ -1,5 +1,5 @@
 
-public class Movie2 {
+public class Movie {
 	public static final int CHILDREN = 2;
 	public static final int REGULAR = 0;
 	public static final int NEW_RELEASE = 1;
@@ -8,7 +8,7 @@ public class Movie2 {
 	
 	private Price price;
 	
-	public Movie2(String title , int priceCode) {
+	public Movie(String title , int priceCode) {
 		_title = title;
 		set_priceCode(priceCode);
 	}
